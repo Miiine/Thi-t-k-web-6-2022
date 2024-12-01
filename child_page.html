@@ -1,198 +1,242 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="child_style.css" type="text/css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Arezzo</title>
-</head>
-<body>
-    <script src="changeimage.js"></script>
-    <header>
-        <div class="container">
-            <div class="nav">
-                <div class="nav_1 icon">
-                    <a href="main_page.html"><i class="fa fa-arrow-left"></i></a>
-                </div>
-                <div class="nav_2 logo">
-                    <img src="images/logo.png" alt="logo">
-                </div>
-                <div class="nav_3 icon">
-                    <a href="#"><i class="fa fa-search"></i></a> 
-                    <a href="#"><i class="fa fa-user-circle-o"></i></a> 
-                    <a href="#"><i class="fa fa-shopping-cart"></i></a>
-                  </div>
-            </div>
-        </div>
-    </header>
-    <main>
-        <div class="main">
-            <div class="image">
-                <ul>
-                    <li><img src="c_images/m1.png" onclick="changeImage('one')" id="one" ></li>
-                    <li><img src="c_images/m2.png" onclick="changeImage('two')" id="two" ></li>
-                    <li><img src="c_images/m3.png" onclick="changeImage('three')" id="three" ></li>
-                    <li><img src="c_images/m4.png" onclick="changeImage('four')" id="four" ></li>
-                    <li><img src="c_images/m5.png" onclick="changeImage('five')" id="five" ></li>
-                </ul>
-                <div id="main-image">
-                    <img src="c_images/m1.png" id="img-main">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="child_style.css" type="text/css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <title>Arezzo</title>
+    </head>
+    <body>
+        <script src="changeimage.js"></script>
+        <header>
+            <div class="container">
+                <div class="nav">
+                    <div class="nav_1 icon">
+                        <a href="index.html"
+                            ><i class="fa fa-arrow-left"></i
+                        ></a>
+                    </div>
+                    <div class="nav_2 logo">
+                        <img src="images/logo.png" alt="logo" />
+                    </div>
+                    <div class="nav_3 icon">
+                        <a href="#"><i class="fa fa-search"></i></a>
+                        <a href="#"><i class="fa fa-user-circle-o"></i></a>
+                        <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                    </div>
                 </div>
             </div>
-            <div class="content">
-                <h1 class="p_text">Arezzo</h1>
-                <div class="star">
-                    <a href="#"><i class="fa fa-star"></i></a>
-                    <a href="#"><i class="fa fa-star"></i></a>
-                    <a href="#"><i class="fa fa-star"></i></a>
-                    <a href="#"><i class="fa fa-star-half-o"></i></a>
-                    <a href="#"><i class="fa fa-star-o"></i></a>
+        </header>
+        <main>
+            <div class="main">
+                <div class="image">
+                    <ul>
+                        <li>
+                            <img
+                                src="c_images/m1.png"
+                                onclick="changeImage('one')"
+                                id="one"
+                            />
+                        </li>
+                        <li>
+                            <img
+                                src="c_images/m2.png"
+                                onclick="changeImage('two')"
+                                id="two"
+                            />
+                        </li>
+                        <li>
+                            <img
+                                src="c_images/m3.png"
+                                onclick="changeImage('three')"
+                                id="three"
+                            />
+                        </li>
+                        <li>
+                            <img
+                                src="c_images/m4.png"
+                                onclick="changeImage('four')"
+                                id="four"
+                            />
+                        </li>
+                        <li>
+                            <img
+                                src="c_images/m5.png"
+                                onclick="changeImage('five')"
+                                id="five"
+                            />
+                        </li>
+                    </ul>
+                    <div id="main-image">
+                        <img src="c_images/m1.png" id="img-main" />
+                    </div>
                 </div>
-                <p class="price"><span>1.109.000VNĐ</span>   889.000VNĐ</p>
-                <p class="describe">Với hình dáng mới kết hợp giữa thiết kế cổ điển với sự sang trọng tinh tế,
-                     Arezzo của Citizen là chiếc đồng hồ dành cho phụ nữ chắc chắn sẽ khiến bạn phải mang đi ở bất cứ đâu. 
-                     Nó có vòng đeo tay bằng thép không gỉ với móc cài và vỏ thép không gỉ, oversize, 32mm, có mặt chứa ba kim màu bạc, 
-                     với các chữ số La Mã với điểm nhấn là kim cương. Đồng hồ cũng sử dụng công nghệ Eco-Drive, 
-                     có nghĩa là nó được cung cấp năng lượng bằng ánh sáng - bất kỳ ánh sáng nào - và sẽ không bao giờ cần sạc lại.
-                </p>
-                <button class="addtobag">Thêm vào giỏ hàng</button>
-            </div>
-        </div>
-        <div class="more-details">
-            <h2>Chi tiết chính:</h2>
-            <video width="500" controls>
-                <source src="c_images/Arezzo_video.mp4" type="video/mp4">
-            </video>
-            <div class="details">
-                <ul>
-                    <li><span>MÃ SẢN XUẤT:</span> EM0870-58A (8/04/2020)</li>
-                    <li><span>CÔNG NGHỆ CHUYỂN ĐỘNG:</span> E033</li>
-                    <li><span>CHIỀU DÀI DÂY:</span> 216 (mm)</li>
-                    <li><span>CHIỀU RỘNG VỎ:</span> 32 (mm)</li>
-                    <li><span>CHIỀU RỘNG LUG:</span> 16 (mm)</li>
-                    <li><span>PHA LÊ:</span> Tinh thể sapphire</li>
-                    <li><span>XUẤT XỨ:</span> Nhật Bản</li>
-                </ul>
-            </div>
-        </div>
-        <div class="comments">
-            <h2>Nhận xét:</h2>
-            <div class="comment">
-                <div class="star">
-                    <a href="#"><i class="fa fa-star"></i></a>
-                    <a href="#"><i class="fa fa-star"></i></a>
-                    <a href="#"><i class="fa fa-star"></i></a>
-                    <a href="#"><i class="fa fa-star"></i></a>
-                    <a href="#"><i class="fa fa-star"></i></a>
-                </div>
-                <p class="name">Nguyên Hằng</p>
-                <p class="time">1 tháng trước</p>
-                <p class="cmt">Đây là một chiếc đồng hồ đẹp. 
-                    Đó là những gì tôi gọi là "thanh lịch đơn giản". 
-                    Tôi có một cổ tay siêu gầy và nó trông không quá to. 
-                    Bàn tay đen trên mặt trắng dễ đọc. 
-                    Phần thưởng là không có pin.
-                </p>
-                <div class="like">
-                    <a href="#"><i class="fa fa-thumbs-up"></i></a>
-                    <a href="#"><i class="fa fa-thumbs-down "></i></a>
-                    <a href="#"><i class="fa fa-reply"></i></a>
-                </div>
-            </div>
-            <div class="comment">
-                <div class="star">
-                    <a href="#"><i class="fa fa-star"></i></a>
-                    <a href="#"><i class="fa fa-star"></i></a>
-                    <a href="#"><i class="fa fa-star"></i></a>
-                    <a href="#"><i class="fa fa-star"></i></a>
-                    <a href="#"><i class="fa fa-star"></i></a>
-                </div>
-                <p class="name">Ly Nguyễn</p>
-                <p class="time">2 tháng trước</p>
-                <p class="cmt">Đó là một chiếc đồng hồ đẹp cổ điển. 
-                    Tôi nhận được lời khen ngợi về nó mọi lúc!
-                </p>
-                <div class="like">
-                    <a href="#"><i class="fa fa-thumbs-up"></i></a>
-                    <a href="#"><i class="fa fa-thumbs-down "></i></a>
-                    <a href="#"><i class="fa fa-reply"></i></a>
+                <div class="content">
+                    <h1 class="p_text">Arezzo</h1>
+                    <div class="star">
+                        <a href="#"><i class="fa fa-star"></i></a>
+                        <a href="#"><i class="fa fa-star"></i></a>
+                        <a href="#"><i class="fa fa-star"></i></a>
+                        <a href="#"><i class="fa fa-star-half-o"></i></a>
+                        <a href="#"><i class="fa fa-star-o"></i></a>
+                    </div>
+                    <p class="price"><span>1.109.000VNĐ</span> 889.000VNĐ</p>
+                    <p class="describe">
+                        Với hình dáng mới kết hợp giữa thiết kế cổ điển với sự
+                        sang trọng tinh tế, Arezzo của Citizen là chiếc đồng hồ
+                        dành cho phụ nữ chắc chắn sẽ khiến bạn phải mang đi ở
+                        bất cứ đâu. Nó có vòng đeo tay bằng thép không gỉ với
+                        móc cài và vỏ thép không gỉ, oversize, 32mm, có mặt chứa
+                        ba kim màu bạc, với các chữ số La Mã với điểm nhấn là
+                        kim cương. Đồng hồ cũng sử dụng công nghệ Eco-Drive, có
+                        nghĩa là nó được cung cấp năng lượng bằng ánh sáng - bất
+                        kỳ ánh sáng nào - và sẽ không bao giờ cần sạc lại.
+                    </p>
+                    <button class="addtobag">Thêm vào giỏ hàng</button>
                 </div>
             </div>
-            <div class="comment">
-                <div class="star">
-                    <a href="#"><i class="fa fa-star"></i></a>
-                    <a href="#"><i class="fa fa-star"></i></a>
-                    <a href="#"><i class="fa fa-star"></i></a>
-                    <a href="#"><i class="fa fa-star"></i></a>
-                    <a href="#"><i class="fa fa-star"></i></a>
+            <div class="more-details">
+                <h2>Chi tiết chính:</h2>
+                <video width="500" controls>
+                    <source src="c_images/Arezzo_video.mp4" type="video/mp4" />
+                </video>
+                <div class="details">
+                    <ul>
+                        <li>
+                            <span>MÃ SẢN XUẤT:</span> EM0870-58A (8/04/2020)
+                        </li>
+                        <li><span>CÔNG NGHỆ CHUYỂN ĐỘNG:</span> E033</li>
+                        <li><span>CHIỀU DÀI DÂY:</span> 216 (mm)</li>
+                        <li><span>CHIỀU RỘNG VỎ:</span> 32 (mm)</li>
+                        <li><span>CHIỀU RỘNG LUG:</span> 16 (mm)</li>
+                        <li><span>PHA LÊ:</span> Tinh thể sapphire</li>
+                        <li><span>XUẤT XỨ:</span> Nhật Bản</li>
+                    </ul>
                 </div>
-                <p class="name">Thanh Hương</p>
-                <p class="time">3 tháng trước</p>
-                <p class="cmt">Sang trọng và tinh tế với vẻ đẹp vượt thời gian. 
-                    Thiết kế đơn giản, thanh lịch.
-                </p>
-                <div class="like">
-                    <a href="#"><i class="fa fa-thumbs-up"></i></a>
-                    <a href="#"><i class="fa fa-thumbs-down "></i></a>
-                    <a href="#"><i class="fa fa-reply"></i></a>
+            </div>
+            <div class="comments">
+                <h2>Nhận xét:</h2>
+                <div class="comment">
+                    <div class="star">
+                        <a href="#"><i class="fa fa-star"></i></a>
+                        <a href="#"><i class="fa fa-star"></i></a>
+                        <a href="#"><i class="fa fa-star"></i></a>
+                        <a href="#"><i class="fa fa-star"></i></a>
+                        <a href="#"><i class="fa fa-star"></i></a>
+                    </div>
+                    <p class="name">Nguyên Hằng</p>
+                    <p class="time">1 tháng trước</p>
+                    <p class="cmt">
+                        Đây là một chiếc đồng hồ đẹp. Đó là những gì tôi gọi là
+                        "thanh lịch đơn giản". Tôi có một cổ tay siêu gầy và nó
+                        trông không quá to. Bàn tay đen trên mặt trắng dễ đọc.
+                        Phần thưởng là không có pin.
+                    </p>
+                    <div class="like">
+                        <a href="#"><i class="fa fa-thumbs-up"></i></a>
+                        <a href="#"><i class="fa fa-thumbs-down"></i></a>
+                        <a href="#"><i class="fa fa-reply"></i></a>
+                    </div>
+                </div>
+                <div class="comment">
+                    <div class="star">
+                        <a href="#"><i class="fa fa-star"></i></a>
+                        <a href="#"><i class="fa fa-star"></i></a>
+                        <a href="#"><i class="fa fa-star"></i></a>
+                        <a href="#"><i class="fa fa-star"></i></a>
+                        <a href="#"><i class="fa fa-star"></i></a>
+                    </div>
+                    <p class="name">Ly Nguyễn</p>
+                    <p class="time">2 tháng trước</p>
+                    <p class="cmt">
+                        Đó là một chiếc đồng hồ đẹp cổ điển. Tôi nhận được lời
+                        khen ngợi về nó mọi lúc!
+                    </p>
+                    <div class="like">
+                        <a href="#"><i class="fa fa-thumbs-up"></i></a>
+                        <a href="#"><i class="fa fa-thumbs-down"></i></a>
+                        <a href="#"><i class="fa fa-reply"></i></a>
+                    </div>
+                </div>
+                <div class="comment">
+                    <div class="star">
+                        <a href="#"><i class="fa fa-star"></i></a>
+                        <a href="#"><i class="fa fa-star"></i></a>
+                        <a href="#"><i class="fa fa-star"></i></a>
+                        <a href="#"><i class="fa fa-star"></i></a>
+                        <a href="#"><i class="fa fa-star"></i></a>
+                    </div>
+                    <p class="name">Thanh Hương</p>
+                    <p class="time">3 tháng trước</p>
+                    <p class="cmt">
+                        Sang trọng và tinh tế với vẻ đẹp vượt thời gian. Thiết
+                        kế đơn giản, thanh lịch.
+                    </p>
+                    <div class="like">
+                        <a href="#"><i class="fa fa-thumbs-up"></i></a>
+                        <a href="#"><i class="fa fa-thumbs-down"></i></a>
+                        <a href="#"><i class="fa fa-reply"></i></a>
+                    </div>
+                </div>
+                <div class="more-comments">
+                    <p>Thêm nhận xét</p>
                 </div>
             </div>
-            <div class="more-comments">
-                <p>Thêm nhận xét</p>
+        </main>
+        <footer>
+            <div class="contact">
+                <div class="contact_1">
+                    <a href="#"><i class="fa fa-clock-o"></i></a>
+                    <p class="f_text_1">MUA HÀNG ONLINE</p>
+                    <p class="f_text_2">Tất cả các ngày trong tuần</p>
+                </div>
+                <div class="contact_2">
+                    <a href="#"><i class="fa fa-phone"></i></a>
+                    <p class="f_text_1">HỖ TRỢ BÁN HÀNG</p>
+                    <p class="f_text_2">0905.789.899</p>
+                </div>
+                <div class="contact_3">
+                    <a href="#"><i class="fa fa-envelope"></i></a>
+                    <p class="f_text_1">EMAIL</p>
+                    <p class="f_text_2">citizen@gmail.com</p>
+                </div>
             </div>
-        </div>
-    </main>
-    <footer>
-        <div class="contact">
-            <div class="contact_1">
-                <a href="#"><i class="fa fa-clock-o"></i></a>
-                <p class="f_text_1">MUA HÀNG ONLINE</p>
-                <p class="f_text_2">Tất cả các ngày trong tuần</p>
+            <div class="information">
+                <div class="information_1">
+                    <p class="f_text_3">VỀ ĐỒNG HỒ CITIZEN</p>
+                    <ul class="f_text_4">
+                        <li>Giới thiệu về Đồng hồ Citizen</li>
+                        <li>Triết lý kinh doanh</li>
+                        <li>Giấy chứng nhận và giải thưởng</li>
+                        <li>Khách hàng nói gì về chúng tôi</li>
+                    </ul>
+                </div>
+                <div class="information_2">
+                    <p class="f_text_3">CHĂM SÓC KHÁCH HÀNG</p>
+                    <ul class="f_text_4">
+                        <li>Hướng dẫn mua hàng</li>
+                        <li>Chính sách đổi trả</li>
+                        <li>Chính sách bảo hành</li>
+                        <li>Dịch vụ và sửa chữa</li>
+                        <li>Hướng dẫn sử dụng đồng hồ</li>
+                    </ul>
+                </div>
+                <div class="information_3">
+                    <p class="f_text_3">TIỆN ÍCH</p>
+                    <ul class="f_text_4">
+                        <li>Tin tức và sự kiện</li>
+                        <li>Tuyển dụng</li>
+                        <li>Thanh toán</li>
+                        <li>Mua hàng online</li>
+                        <li>Mua hàng trả góp</li>
+                    </ul>
+                </div>
             </div>
-            <div class="contact_2">
-                <a href="#"><i class="fa fa-phone"></i></a>
-                <p class="f_text_1">HỖ TRỢ BÁN HÀNG</p>
-                <p class="f_text_2">0905.789.899</p>
-            </div>
-            <div class="contact_3">
-                <a href="#"><i class="fa fa-envelope "></i></a>
-                <p class="f_text_1">EMAIL</p>
-                <p class="f_text_2">citizen@gmail.com</p>
-            </div>
-        </div>
-        <div class="information">
-            <div class="information_1">
-                <p class="f_text_3">VỀ ĐỒNG HỒ CITIZEN</p>
-                <ul class="f_text_4">
-                    <li>Giới thiệu về Đồng hồ Citizen</li>
-                    <li>Triết lý kinh doanh</li>
-                    <li>Giấy chứng nhận và giải thưởng</li>
-                    <li>Khách hàng nói gì về chúng tôi</li>
-                </ul>
-            </div>
-            <div class="information_2">
-                <p class="f_text_3">CHĂM SÓC KHÁCH HÀNG</p>
-                <ul class="f_text_4">
-                    <li>Hướng dẫn mua hàng</li>
-                    <li>Chính sách đổi trả</li>
-                    <li>Chính sách bảo hành</li>
-                    <li>Dịch vụ và sửa chữa</li>
-                    <li>Hướng dẫn sử dụng đồng hồ</li>
-                </ul>
-            </div>
-            <div class="information_3">
-                <p class="f_text_3">TIỆN ÍCH</p>
-                <ul class="f_text_4">
-                    <li>Tin tức và sự kiện</li>
-                    <li>Tuyển dụng</li>
-                    <li>Thanh toán</li>
-                    <li>Mua hàng online</li>
-                    <li>Mua hàng trả góp</li>
-                </ul>
-            </div>
-        </div>
-    </footer>
-</body>
+        </footer>
+    </body>
 </html>
