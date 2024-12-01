@@ -1,0 +1,9 @@
+{
+    "dependencies": {
+        "gh-pages": "^6.2.0"
+    },
+    "homepage": "https://github.com/Miiine/Thi-t-k-web-6-2022.git",
+    "scripts": {
+        "deploy": "gh-pages -d ."
+    }
+}
